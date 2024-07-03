@@ -14,6 +14,8 @@ public partial class Login : ContentPage
 
     private void OnSubmitButtonClicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new NewPage1());
+        //SemanticScreenReader.Announce(CounterBtn.Text);
     }
+
 }

@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\blankheart.png" />
 	  <None Remove="Resources\Images\Logo.png" />
 	  <None Remove="Resources\Images\logo_svg.svg" />
 	  <None Remove="Resources\Images\pnglogin.png" />
