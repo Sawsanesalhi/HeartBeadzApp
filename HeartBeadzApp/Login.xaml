@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HeartBeadzApp.Login"
+             Title="Login"
+             BackgroundColor="#EA5292">
+
+
+<VerticalStackLayout>
+    <Image Source="pnglogin.png"
+    Scale="1"
+    VerticalOptions="EndAndExpand"
+    HorizontalOptions="Center"
+    Aspect="AspectFit"
+    SemanticProperties.Description="dot net bot in a race car number eight" />
+    <StackLayout>
+        <Label Text="username"/>
+        <Entry x:Name="userEntry"
+        Placeholder="Enter text"/>
+    </StackLayout>
+    <StackLayout>
+        <Label Text="password"/>
+        <Entry x:Name="passwordEntry"
+        Placeholder="Enter text"
+        IsPassword="True"/>
+        <ImageButton Source="submit.png"
+                    Clicked="OnSubmitButtonClicked"
+                            Margin="0,-50,0,0"
+                    Scale=".5"/>
+    </StackLayout>
+
+</VerticalStackLayout>
+
+</ContentPage>
